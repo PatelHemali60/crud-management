@@ -1,0 +1,32 @@
+:host{
+    display: flex;
+    border: 1px solid red;
+    flex-grow: 1;
+    flex-direction: column;
+
+}
+nav{
+    flex: 0 0 80px;
+    background-color: #0064d2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    
+    ul{
+        display: flex;
+        list-style: none;
+
+        li{
+            margin: 0 20px;
+           
+            a{
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 1.25rem;
+                color: white;
+
+            }
+        }
+    }
+}
